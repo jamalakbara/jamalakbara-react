@@ -1,0 +1,20 @@
+$abu: #424c5c;
+
+.socials{
+    display: flex;
+    &__social{
+        border-radius: 100%;
+        background-color: $abu;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        svg{
+            fill: white;
+        }
+    }
+    &__social:not(:last-child){
+        margin-right: 8px;
+    }
+}
