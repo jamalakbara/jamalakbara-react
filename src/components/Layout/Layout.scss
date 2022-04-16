@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap');
 
-$base-color: #131f33;
+$base-color: #152136;
 
 *{
     font-family: 'Work Sans', sans-serif;
@@ -16,4 +16,8 @@ body{
 
 a{
     text-decoration: none;
+}
+
+figure, h1, h2, p{
+    margin: 0;
 }

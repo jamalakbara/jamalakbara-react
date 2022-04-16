@@ -1,0 +1,12 @@
+.intro{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40vw, 1fr));
+    height: 100vh;
+
+    &__main{
+        padding-left: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

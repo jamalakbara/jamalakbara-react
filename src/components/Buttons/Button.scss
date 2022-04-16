@@ -1,0 +1,43 @@
+$oren: #e1a34c;
+
+.button{
+    display: inline-block;
+    font-size: 18px;
+    padding: 13px 45px;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+    align-self: flex-start;
+    color: white;
+}
+
+.button-transparent{
+    @extend .button;
+    border-color: rgba(255, 255, 255, 0.2);
+    background: transparent;
+
+    &:hover{
+        outline: 0;
+        text-decoration: none;
+        border-color: $oren;
+        background: $oren;
+    }
+    
+}
+
+.button-orange{
+    @extend .button;
+    border-color: $oren;
+    background: $oren;
+    
+    &:hover{
+        outline: 0;
+        text-decoration: none;
+        border-color: rgba(255, 255, 255, 0.2);
+        background: transparent;
+    }
+
+}
