@@ -2,6 +2,7 @@ $header-color: #131f33;;
 
 .nav{
     position: sticky;
+    top: 0;
     background-color: $header-color;
     display: flex;
     justify-content: space-between;
