@@ -4,10 +4,12 @@ import Layout from '../../components/Layout/Layout'
 
 const Home = () => {
   return (
-    <Layout>
-        <Header />
-        <Intro />
-    </Layout>
+    <>
+      <Header />
+      <Layout>
+          <Intro />
+      </Layout>
+    </>
   )
 }
 
