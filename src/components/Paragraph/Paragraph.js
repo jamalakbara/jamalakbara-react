@@ -1,9 +1,9 @@
 import './Paragraph.scss'
 
-const Parahraph = ({text}) => {
+const Parahraph = ({children}) => {
   return (
     <div className='paragraph'>
-        <p>{text}</p>
+        <p>{children}</p>
     </div>
   )
 }

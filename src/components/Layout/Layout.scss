@@ -5,6 +5,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: $base-color;
 }
@@ -17,6 +21,7 @@ a{
     text-decoration: none;
 }
 
-figure, h1, h2, p{
+figure, h1, h2, p, ul{
     margin: 0;
+    padding: 0;
 }

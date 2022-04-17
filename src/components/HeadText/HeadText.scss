@@ -1,4 +1,4 @@
-$oren: #e1a34c;
+@import '/src/assets/css/color';
 
 .head{
   .subheading{
@@ -6,6 +6,9 @@ $oren: #e1a34c;
       font-size: 22px;
       font-weight: normal;
       margin-bottom: 8px;
+      &::before{
+        content: '—';
+      }
   }
   .heading{
       color: white;

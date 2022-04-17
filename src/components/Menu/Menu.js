@@ -1,5 +1,4 @@
 import './Menu.scss'
-import { Link } from "react-router-dom";
 
 const menus = [
     {
@@ -33,7 +32,7 @@ const Menu = () => {
     <div className='menu'>
         {
             menus.map(menu => (
-                <Link key={menu.name} to={menu.path} className="menu__link">{menu.name}</Link>
+                <a key={menu.name} href={menu.path} className="menu__link">{menu.name}</a>
             ))
         }
     </div>
