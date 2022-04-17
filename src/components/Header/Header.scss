@@ -1,11 +1,17 @@
-$header-color: #131f33;;
+@import '/src/assets/css/color';
+@import '/src/assets/css/fonts';
 
 .nav{
     position: sticky;
     top: 0;
-    background-color: $header-color;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 26px 50px;
+    transition: all 0.2 ease;
+    
+    &--scrolled{
+        background-color: $header-color;
+    }
 }
