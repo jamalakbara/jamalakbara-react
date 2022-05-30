@@ -6,6 +6,8 @@
       font-size: 22px;
       font-weight: normal;
       margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
       &::before{
         content: '—';
       }
@@ -14,5 +16,6 @@
       color: white;
       font-size: 70px;
       line-height: 80px;
+      text-transform: capitalize;
   }
 }
